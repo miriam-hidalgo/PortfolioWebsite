@@ -1,57 +1,30 @@
-/* body {
-    font: 15px/1.5  'Arial', Helvetica, sans-serif;
-    padding: 0;
-    margin: 0;
-    background-color: #ffffff;
-    background-image: url(../images/double-bubble.png);
-} */
-
 /* Global */
-/* .container {
-    width: 80%;
-    margin: auto;
-    overflow: hidden;
+body {
+    background-image: url(../images/double-bubble.png);
 }
 
-ul {
-    margin: 0;
-    padding: 0;
-} */
+.card {
+    margin: 50px auto 20% auto;
+    box-shadow: 10px 10px 10px 10px #888888;
+}
 
 /* Header */
-/* header {
-    background: #182A33;
-    padding-top: 30px;
-    min-height: 60px;
+header {
     box-shadow: 10px 10px 10px #888888;
     border-bottom: #D9D0B8 3px solid;
 }
 
 header a {
     color: white;
-    text-decoration: none;
-    text-transform: uppercase;
     font-size: 25px;
 }
 
 header li {
     display: inline;
-    padding: 0 20px 0 20px;
+    padding: 8px 20px 0 20px;
 }
 
-header #branding {
-    float: left;
-}
-
-header #branding h1 {
-    margin: 0;
-}
-
-header nav {
-    float: right;
-}
-
-header .highlight, header .current a{
+header .highlight {
     color: #D9D0B8;
     font-weight: bold;
 }
@@ -59,63 +32,22 @@ header .highlight, header .current a{
 header a:hover{
     color: #3C6A80;
     font-weight: bold;
-} */
+}
 
 /* Image Content */
-/* .imgContentDiv {
-    width: 60%;
-    margin: 40px auto 40px auto;
-    padding: 15px 0px 15px 0px;
-    text-align: left;
-    color: #D9D0B8;
-    background-color: #2A4A59;
-    border-radius: 8px;
+.img-thumbnail {
+    margin: 0px 15px 0px auto;
     box-shadow: 10px 10px 10px 10px #888888;
 }
 
-.imgContentDiv h1 {
-    text-align: center;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-.headerImg img {
-    float: left;
-    height: 25%;
-    width: 25%;
-    border: 1px solid #ddd;
-    border-radius: 4px;
-    margin-right: 15px;
-}
-
-.headerImg img:hover {
+img:hover {
     box-shadow: 0 0 2px 1px grey;
-} */
+}
 
 /* Porfolio Page */
-/* .portfolio {
-    width: 35%;
-    margin: 40px auto 40px auto;
-    padding: 0px;
-    color: #D9D0B8;
-    background-color: #2A4A59;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px 10px #888888;
-}
-
-.portfolio h1 {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 10px;
-}
-
 .icon {
-    margin: 10px 10px 10px 10px;
+    margin: 10px;
 }
-
-.portfolio img:hover {
-    box-shadow: 0 0 2px 1px grey;
-} */
 
 /* Contact Page */
 /* .contact {

@@ -10,48 +10,60 @@
     </head>
 
     <body>
-        <header >
-            <div class="container">
-                <div id="branding">
-                    <a href="index.html"><h1><span class="highlight">Miriam Hidalgo</span> </h1></a>
-                </div>
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-10">
+                            <a class="navbar-brand highlight" href="index.html"><h1>Miriam Hidalgo</h1></a>
+                        </div>
+                        
+                        <div class="col-2">
+                            <div class="collapse navbar-collapse" id="navbarText">
+                                <ul class="navbar-nav mr-auto text-right">
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="index.html">About</a>
+                                    </li>
 
-                <nav>
-                    <ul>
-                        <li class="current"><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
+                                    <li class="nav-item active">
+                                        <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                                    </li>
+
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
         </header>
 
-        <section class="portfolio">
-            <div class="container">    
-               <div>
-                  <h1>Portfolio</h1>
-   
-                  <div class="imgRow">
-                     <img src="./assets/images/download.jfif" class="icon">
-                     <img src="./assets/images/download (1).jfif" class="icon">
-                  </div>
+        <div class="container">    
+            <div class="card">
+                <div class="card-header bg-dark text-white">
+                    <h1>Portfolio</h1>
+                </div>
 
-                  <div class="imgRow">
-                     <img src="./assets/images/download (2).jfif" class="icon">
-                     <img src="./assets/images/download (3).jfif" class="icon">
-                  </div>
-
-                  <div class="imgRow">
-                     <img src="./assets/images/download (4).jfif" class="icon">
-                     <img src="./assets/images/download (5).jfif" class="icon">
-                  </div>               
-               </div>
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <img src="./assets/images/download.jfif" class="icon img-thumbnail">
+                            <img src="./assets/images/download (3).jfif" class="icon img-thumbnail">
+                            <img src="./assets/images/download (5).jfif" class="icon img-thumbnail">
+                            <img src="./assets/images/download (1).jfif" class="icon img-thumbnail">
+                            <img src="./assets/images/download (2).jfif" class="icon img-thumbnail">
+                            <img src="./assets/images/download (4).jfif" class="icon img-thumbnail">
+                        </div>
+                    </div>             
+                </div>
             </div>
-        </section>
+        </div>
 
-        <footer class="footer">
+        <nav class="navbar fixed-bottom navbar-light bg-light">
+            <a class="navbar-brand" href="#"></a>
             <p>Copyright &copy 2020</p>
-        </footer>
-
+        </nav>
     </body>
 </html>
