@@ -50,7 +50,7 @@ img:hover {
 }
 
 /* Contact Page */
-/* .contact {
+.contact {
     width: 35%;
     margin: 40px auto 40px auto;
     padding: 10px 0px 20px 0px;
@@ -81,15 +81,12 @@ button {
     font-weight: bold;
     padding: 5px;
     margin-top: 10px;
-} */
+}
 
 /* Footer*/
-/* footer {
-    margin-top: 80px;
-    padding: 20px;
-    color: black;
-    background-color: #D9D0B8;
+nav.footer {
+    font-weight: bold;
+    color: #D9D0B8;
     box-shadow: 0px 5px 10px 10px #888888;
     text-align: center;
-    font-weight: bold;
-}  */
+}
