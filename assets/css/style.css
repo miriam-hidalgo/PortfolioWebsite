@@ -6,12 +6,14 @@ body {
 .card {
     margin: 50px auto 20% auto;
     box-shadow: 10px 10px 10px 10px #888888;
+    width: fit-content;
+    background-color: #FFF8E1;
 }
 
 /* Header */
 header {
     box-shadow: 10px 10px 10px #888888;
-    border-bottom: #D9D0B8 3px solid;
+    border-bottom: #FFF8E1 3px solid;
 }
 
 header a {
@@ -50,29 +52,13 @@ img:hover {
 }
 
 /* Contact Page */
-.contact {
-    width: 35%;
-    margin: 40px auto 40px auto;
-    padding: 10px 0px 20px 0px;
-    color: #D9D0B8;
-    background-color: #2A4A59;
-    border-radius: 8px;
-    box-shadow: 10px 10px 10px 10px #888888;
-}
-
-.contact h1 {
-    font-size: 25px;
-    font-weight: bold;
-    margin-top: 10px;
-    text-align: center;
-}
-
 input {
     margin: 10px 0px 10px 0px;
 }
 
 form {
     padding: 10px;
+    font-weight: bold;
 }
 
 button {
@@ -86,7 +72,7 @@ button {
 /* Footer*/
 nav.footer {
     font-weight: bold;
-    color: #D9D0B8;
+    color: white;
     box-shadow: 0px 5px 10px 10px #888888;
     text-align: center;
 }
