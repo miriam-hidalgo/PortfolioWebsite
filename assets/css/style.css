@@ -10,6 +10,10 @@ body {
     background-color: #FFF8E1;
 }
 
+.card-header {
+    font-size: 24px;
+}
+
 /* Header */
 header {
     box-shadow: 10px 10px 10px #888888;
@@ -18,12 +22,6 @@ header {
 
 header a {
     color: white;
-    font-size: 25px;
-}
-
-header li {
-    display: inline;
-    padding: 8px 20px 0 20px;
 }
 
 header .highlight {
@@ -31,9 +29,17 @@ header .highlight {
     font-weight: bold;
 }
 
-header a:hover{
+header a:hover {
     color: #3C6A80;
     font-weight: bold;
+}
+
+.navbar-brand {
+    font-size: 24px;
+}
+
+ul {
+    font-size: 20px;
 }
 
 /* Image Content */
@@ -52,21 +58,9 @@ img:hover {
 }
 
 /* Contact Page */
-input {
-    margin: 10px 0px 10px 0px;
-}
-
-form {
-    padding: 10px;
-    font-weight: bold;
-}
-
-button {
-    background-color: #D9D0B8;
-    color: #2A4A59;
-    font-weight: bold;
-    padding: 5px;
-    margin-top: 10px;
+.btnSubmit {
+    background-color: #2A4A59;
+    color: white;
 }
 
 /* Footer*/

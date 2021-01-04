@@ -7,62 +7,63 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script src="index.js"></script>
     </head>
 
     <body>
         <header>
-            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-                <div class="container">
-                    <div class="row">
-                        <div class="col-10">
-                            <a class="navbar-brand highlight" href="index.html"><h1>Miriam Hidalgo</h1></a>
-                        </div>
-                        
-                        <div class="col-2">
-                            <div class="collapse navbar-collapse" id="navbarText">
-                                <ul class="navbar-nav mr-auto text-right">
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="index.html">About</a>
-                                    </li>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">   
+                <div class="container-fluid">    
+                    <a class="navbar-brand" href="index.html">Miriam Hidalgo</a>
 
-                                    <li class="nav-item">
-                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                    </li>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span>
+                    </button>
 
-                                    <li class="nav-item active">
-                                        <a class="nav-link" href="contact.html">Contact<span class="sr-only">(current)</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </nav>
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">About</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="portfolio.html">Portfolio</a>
+                            </li>
+
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact</a>
+                            </li>
+                        </ul>
+                    </div>               
+                </div>   
+            </nav> 
         </header>
 
-        
         <div class="container">
             <div class="card">
-                <div class="card-header bg-dark text-white">
-                    <h1>Send me a message!</h1>
-                </div>
+                <div class="card-header bg-dark text-white">Send me a message!</div>
             
                 <div class="card-body">
-                    <form>
-                        <div>First Name:</div>
-                        <input type="text" size="30">
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <textarea class="form-control" id="form-fname" rows="1"></textarea>
+                    </div>
 
-                        <div>Last Name:</div>
-                        <input type="text" size="30">
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <textarea class="form-control" id="form-lname" rows="1"></textarea>
+                    </div>
 
-                        <div>Email:</div>
-                        <input type="email" size="30">
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="formEmail" placeholder="name@example.com">
+                    </div>
 
-                        <div>Message:</div>
-                        <textarea cols="30" rows="10"></textarea>
+                    <div class="mb-3">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea class="form-control" id="formMessage" rows="3"></textarea>
+                    </div>
 
-                        <div><button type="button">Submit Message</button></div>
-                    </form>
+                    <button type="submit" class="btn btnSubmit">Submit Message</button>
                 </div>
             </div>
         </div>
