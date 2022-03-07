@@ -1,2 +1,2 @@
 # PortfolioWebsite
-miriamhidalgo.net
+www.miriamhidalgo.net
