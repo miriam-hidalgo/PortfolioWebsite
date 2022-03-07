@@ -20,7 +20,6 @@ header {
     background-color: rgb(25, 46, 63);
     padding: .5em 0;
     margin: 0;
-    
 }
 
 .row {
@@ -37,7 +36,6 @@ header {
 }
 
 .nav__item {
-  
 }
 
 .nav__item + .nav__item {
@@ -57,10 +55,6 @@ header {
 }
 
 .hero__profile {
-  
-
-
-
 }
 
 .hero__item {
@@ -68,32 +62,27 @@ header {
 }
 
 .hero__item + .hero__item {
-    margin-left: 2em;
-   
+    margin-left: 2em;   
 }
 
 img {
     max-width: 100%;
-
-
 }
 
 .hero__name {
     align-items: center;
 }
+
 .hero__img {   
 }
 
 .profileImg {
     border-radius: 100px;
-
 }
 
 .intro {
     background-color: rgb(25, 46, 63);
     color: white;
     padding: 1em 0;
-    margin: 0;
-    
- 
+    margin: 0;  
 }
