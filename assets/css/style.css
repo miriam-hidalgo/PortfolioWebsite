@@ -16,45 +16,84 @@ body {
 }
 
 header {
-    background-color: steelblue;
-    padding: .5em;
-    margin-bottom: 2em;
-    font-size: 1rem;
+    /* background-color: rgb(169, 193, 212); */
+    background-color: rgb(25, 46, 63);
+    padding: .5em 0;
+    margin: 0;
+    
 }
 
 .row {
     display: flex;
 }
 
+.nav {
+    font-size: 1rem;
+}
 
-.nav__list {
+.nav__list {   
     list-style-type: none;
     justify-content: space-between;
 }
 
 .nav__item {
-    background-color: tomato;
-    
-    
+  
 }
 
 .nav__item + .nav__item {
-    margin-left: 30px;
+    margin-left: 2em;
 }
 
 .nav__link {
+    text-transform: uppercase;
+    color: white;
     text-decoration: none;
+}
+
+.hero {
+    background-color: rgba(70, 131, 180, 0.128);
+    padding: 3em 0;
+    margin: 0;
+}
+
+.hero__profile {
+  
+
+
+
+}
+
+.hero__item {
+   font-size: 2rem;
+}
+
+.hero__item + .hero__item {
+    margin-left: 2em;
+   
 }
 
 img {
     max-width: 100%;
+
+
 }
 
-.intro__img {
-    width: 25%;
-    height: 25%;
+.hero__name {
+    align-items: center;
+}
+.hero__img {   
 }
 
 .profileImg {
     border-radius: 100px;
+
+}
+
+.intro {
+    background-color: rgb(25, 46, 63);
+    color: white;
+    padding: 1em 0;
+    margin: 0;
+    
+ 
 }
