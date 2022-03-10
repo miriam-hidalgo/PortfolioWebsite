@@ -1,6 +1,3 @@
-// var myCollapsible = document.getElementById('collapseBtn')
+// const navToggle = document.querySelector('.nav__toggle');
 
-// myCollapsible.addEventListener('hidden.bs.collapse', function () {
-//   // do something...
-//   console.log(pressed)
-// })
+// console.log(navToggle);
