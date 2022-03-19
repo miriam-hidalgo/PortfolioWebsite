@@ -1,2 +1,3 @@
 # PortfolioWebsite
-www.miriamhidalgo.net
+
+Deployed Site: https://miriam-hidalgo.github.io/PortfolioWebsite/
